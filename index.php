@@ -30,25 +30,12 @@
                     echo "</div>";
                 }
             }
-        }
-
-        
+        } 
     }
-    
     echo "<div id='grupoPersonagens'>";
     echo "<div id='titulo'><h1>Personagens Naruto</h1></div>";
     exibirPersonagem("Might Guy", "Rock Lee", "Killer B" );
-    // exibirPersonagem("Naruto Uzumaki");
-    // exibirPersonagem("Gaara");
-    // exibirPersonagem("Rock Lee");
     echo "</div>";
-    // Usando file get contents
-    //$personagens = json_decode(file_get_contents($url));
-
-
-    // echo "<pre>";
-    // print_r(json_decode($personagens));
-    // exit;
     ?>
 </body>
 </html>
